@@ -20,6 +20,8 @@ public class Main {
 		caderno.remover("Academia");
 		caderno.contarTarefas(caderno);
 		
+		caderno.concluirTarefa("Estudar");
+		caderno.contarTarefas(caderno);
 		
 	}
 
